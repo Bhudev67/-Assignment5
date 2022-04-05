@@ -10,10 +10,15 @@ df1=df.head(1000)
 After that, We created function called histogram_function which creates a
 distribution visualization of channeltype data.
 def histogram_function():
+
 print(df_count)
+
 fig=plt.figure(figsize=(20,20))
+
 plt.hist(df1['channeltype'],bins=15)
+
 plt.gca().set(title='Frequency Histogram of Channel Type',
+
 ylabel='Frequency')
 
 We specified the function name with def histogram_function (), and then used
