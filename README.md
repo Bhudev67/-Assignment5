@@ -27,5 +27,6 @@ axis should be labelled, and the histogram should be given a title.
 
 Using the python script below, we imported the top 1000 records into a
 separate csv file called "100 records.csv".
+
 df1.to_csv('1000_records.csv')
 
